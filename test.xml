@@ -1,53 +1,133 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Module>
-  <ModulePrefs title="Magic Decoder"/>
+  <ModulePrefs title="test Portal page"/>
   <Content type="html">
   <![CDATA[
-     <script type="text/javascript">
+<style>
 
-       // The gadget version of ROT13.
-       // Encodes/decodes text strings by replacing each letter with the letter
-       // 13 positions to the right in the alphabet.
-       function decodeMessage (form) {
-          var alpha = "abcdefghijklmnopqrstuvwxyz";
-          var input = form.inputbox.value;
-          var aChar;
-          var message = "";
-          for (var i = 0; i <input.length; i++)
-          {
-             aChar = input.charAt(i);
-             var index = alpha.indexOf(aChar.toLowerCase());
+.container {
+  width: 970px !important;
+}
 
-             // if a non-alphabetic character, just append to string
-             if (index==-1)
-             {
-                message += aChar;
-             }
+.default {
+  background-color: transparent;
+  margin-top:83px;
+}
 
-             // if you have to wrap around the end of the alphabet
-             else if(index > 12) { // compensate for 0-based index
-                index = 25 - index; // last item in array is at [25]
-                index = 12 - index; // because array starts with 0
-                aChar = alpha.charAt(index);
-                message += aChar;
-             }
+.row-first {
+  padding-top: 5px;
+}
 
-             // if you don't have to wrap
-             else {
-                aChar = alpha.charAt(index+13);
-                message += aChar;
-             }
-          }
-          document.getElementById('content_div').innerHTML = "<b>Your message: </b>" + message;
-     }
-     </script>
+.col-custom {
+  padding: 5px;
+}
 
-     <FORM NAME="myform" ACTION="" METHOD="GET">Message: <BR>
-       <INPUT TYPE="text" NAME="inputbox" VALUE=""><P>
-       <INPUT TYPE="button" NAME="button" Value="Transform" onClick="decodeMessage(this.form)">
-     </FORM>
-     <div id="content_div"></div>
+.col-scale:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform; scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.scale-group:hover .col-scale:not(:hover) {
+  opacity: 0.4;
+}
+
+.description-title{
+  font-size: 16px;
+  color: white;
+}
+
+.description{
+  font-size: 12px;
+  color: white;
+}
+
+.link1{
+	height: 80px;
+	padding: 20px;
+}
+.link3{
+	height: 240px;
+	padding: 20px;
+}
+
+.block1{
+  padding: 20px 10px;
+  background-color: rgb(52,152,219);
+}
+
+.block2{
+  padding: 20px 10px;
+  background-color: rgb(249, 105, 14);
+}
+
+.block12{
+  padding: 20px 10px;
+  /* background-color: rgb(139, 171, 66); */
+  background-color: rgb(46, 204, 113);
+}
+
+</style>
+
+<div class="container">
+	<div class="row row-first">
+		<article class="scale-group">
+			
+			<!-- DOMAIN -->
+			<div class="col-sm-4 col-custom">
+				<a href="#" target="_top">
+					<div class="col-scale block12">
+						<div class="row link1">
+							<p class="description-title">DOMAIN</p>
+						</div>
+						<div class="row link3">
+							<p class="description"> go to domain site </p>						
+						</div>
+					</div>
+				</a>
+			</div>
+			
+			<!-- WIKI -->
+			<div class="col-sm-4 col-custom">
+				<a href="#" target="_top">
+					<div class="col-scale block2">
+						<div class="row link1">
+							<p class="description-title">WIKI</p>
+						</div>
+						<div class="row link3">
+							<p class="description"> go to wiki site </p>						
+						</div>
+					</div>
+				</a>
+			</div>
+			
+			<!-- OTHER -->
+			<div class="col-sm-4 col-custom">
+				<a href="#" target="_top">
+					<div class="col-scale block1">
+						<div class="row link1">
+							<p class="description-title">TIMETRACKER</p>
+						</div>
+						<div class="row link3">
+							<p class="description"> go to timetracker site </p>						
+						</div>
+					</div>
+				</a>
+			</div>
+			
+		</article>
+	</div>
+</div>
+
   ]]>
   </Content>
 </Module>

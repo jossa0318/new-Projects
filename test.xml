@@ -5,12 +5,8 @@
   <Content type="html">
   <![CDATA[
 
-<html>
-<head>
-	<title>Health Care Portal</title>
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/jossa0318/new-Projects/master/portal.css">
     
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -20,9 +16,7 @@
     <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
     <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
     <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>        
-</head>
 
-<body>
 
 <div class="container">
 	<div class="row row-first">
@@ -30,7 +24,7 @@
 			
 			<!-- DOMAIN -->
 			<div class="col-sm-4 col-custom">
-				<a href="https://sites.google.com/a/pointwest.com.ph/hmc-domain-website/index" target="_top">
+				<a href="#" target="_top">
 					<div class="col-scale block12">
 						<div class="row link1">
 							<p class="description-title">DOMAIN</p>
@@ -74,8 +68,6 @@
 	</div>
 </div>
 
-</body>
-</html>
 
   ]]>
   </Content>

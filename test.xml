@@ -5,6 +5,11 @@
   <Content type="html">
   <![CDATA[
   
+  <!DOCTYPE html>
+  	<html>
+	<head>
+	
+	
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
     <link type="text/css" href="portal.css" rel="stylesheet" >
@@ -18,7 +23,8 @@
     <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
     <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>        
 
-
+	</head>
+	<body>
 <div class="container">
 	<div class="row row-first">
 		<article class="scale-group">
@@ -67,7 +73,7 @@
 			
 		</article>
 	</div>
-</div>
+</div> </body> </html>
 
   ]]>
   </Content>

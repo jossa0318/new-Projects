@@ -5,77 +5,24 @@
   <Content type="html">
   <![CDATA[
 
-<style type="text/css">
+<html>
+<head>
+	<title>Health Care Portal</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/jossa0318/new-Projects/master/portal.css">
+    
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-.container {
-  width: 970px !important;
-}
+	<!-- Bootflat's JS files.-->
+    <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
+    <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
+    <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>        
+</head>
 
-.default {
-  background-color: transparent;
-  margin-top:83px;
-}
-
-.row-first {
-  padding-top: 5px;
-}
-
-.col-custom {
-  padding: 5px;
-}
-
-.col-scale:hover {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform; scale(1.05);
-  -o-transform: scale(1.05);
-  transform: scale(1.05);
-  
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.scale-group:hover .col-scale:not(:hover) {
-  opacity: 0.4;
-}
-
-.description-title{
-  font-size: 16px;
-  color: white;
-}
-
-.description{
-  font-size: 12px;
-  color: white;
-}
-
-.link1{
-	height: 80px;
-	padding: 20px;
-}
-.link3{
-	height: 240px;
-	padding: 20px;
-}
-
-.block1{
-  padding: 20px 10px;
-  background-color: #3498DB;
-}
-
-.block2{
-  padding: 20px 10px;
-  background-color: #F9690E;
-}
-
-.block12{
-  padding: 20px 10px;
-  background-color: #2ECC71;
-}
-</style>
+<body>
 
 <div class="container">
 	<div class="row row-first">
@@ -89,7 +36,7 @@
 							<p class="description-title">DOMAIN</p>
 						</div>
 						<div class="row link3">
-							<p class="description"> go to domain site </p>						
+							<p class="description">The Healthcare Industry being identified as one of the industries from which POINTWEST wishes to expand its business operations is very broad and POINTWEST's understanding of this domain is currently limited by the projects that it has been exposed to (i.e. Pharmaceutical and Medical Benefit Claims). With the plan to increase the market share of POINTWEST related services, the Healthcare Market Circle (HMC) must be able to understand the needs of these organizations, and this can be initiated through an appreciation of the domain and hence the initiative to document this domain understanding.</p>						
 						</div>
 					</div>
 				</a>
@@ -126,6 +73,9 @@
 		</article>
 	</div>
 </div>
+
+</body>
+</html>
 
   ]]>
   </Content>

@@ -5,7 +5,8 @@
   <Content type="html">
   <![CDATA[
 
-<style type="text/css>.container {
+<style type="text/css>
+.container {
   width: 970px !important;
 }
 

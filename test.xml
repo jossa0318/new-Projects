@@ -5,8 +5,13 @@
   <Content type="html">
   <![CDATA[
 
-    <head>
+    <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
 	<title>Health Care Portal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
     <link rel="stylesheet" href="portal.css">
@@ -74,7 +79,7 @@
 </div>
 
 </body>
-
+</html>
 
   ]]>
   </Content>

@@ -4,6 +4,9 @@
   <ModulePrefs title="test Portal page"/>
   <Content type="html">
   <![CDATA[
+  
+  <html>
+  <head>
  
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
@@ -17,7 +20,9 @@
     <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
     <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
     <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>        
+</head>
 
+<body>
 	<div class="container">
 		<div class="row row-first">
 			<article class="scale-group">
@@ -67,6 +72,8 @@
 			</article>
 		</div>
 	</div> 
+	</body>
+	</html>
 
   ]]>
   </Content>

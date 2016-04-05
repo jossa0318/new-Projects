@@ -8,18 +8,18 @@
   <html>
   <head>
  
-    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="plugins/bootflat/css/bootflat.css" rel="stylesheet" type="text/css">
-    <link href="portal.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="plugins/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/bootflat.github.io/bootflat/css/bootflat.css">
+    <link rel="stylesheet" href="portal.css">
     
     <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    
+    <script src="plugins/jquery-2.2.0.min.js"></script>
+    <script src="plugins/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
     <!-- Bootflat's JS files.-->
-    <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
-    <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
-    <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>        
+    <script src="plugins/bootflat.github.io/bootflat/js/icheck.min.js"></script>
+    <script src="plugins/bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
+    <script src="plugins/bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
 </head>
 
 <body>
